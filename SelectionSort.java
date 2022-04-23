@@ -20,7 +20,7 @@ public class SelectionSort {
                     smallest = j; //switching the index of smallest element
                 }
             }
-            int temp = arr[smallest]; //swappig the smallest element
+            int temp = arr[smallest]; //swapping the smallest element
             arr[smallest] = arr[i];
             arr[i] = temp;
         }
@@ -32,7 +32,7 @@ public class SelectionSort {
     public static void main(String[] args){
         int arr[] = {7, 8, 3, 1, 2};
 
-        selection(arr);// calling selectio sort function
+        selection(arr);// calling selection sort function
 
         printArray(arr);//printing the array
     }
