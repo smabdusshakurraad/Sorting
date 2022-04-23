@@ -8,7 +8,7 @@ public class SelectionSort {
         System.out.println();
     }
 
-    public static void selection (int[] arr)  //insertion
+    public static void selection (int[] arr)  //selection
     {
 
         //for n elements of an array
